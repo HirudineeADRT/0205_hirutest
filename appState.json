@@ -1,0 +1,206 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "b830e455-9fac-4f00-86d6-732daf77aa76": {
+        "id": "b830e455-9fac-4f00-86d6-732daf77aa76",
+        "parent": null,
+        "name": "0205_hirutest",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "13f0fa6d-c474-4d9d-b237-4749a198886b",
+          "b5e0bb1b-be2f-4857-8e15-23524bb65e02",
+          "d96722a2-2ac2-481c-b8cc-561d8797e388"
+        ],
+        "isRemovable": false,
+        "filePath": "0205_hirutest"
+      },
+      "13f0fa6d-c474-4d9d-b237-4749a198886b": {
+        "id": "13f0fa6d-c474-4d9d-b237-4749a198886b",
+        "parent": "b830e455-9fac-4f00-86d6-732daf77aa76",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "0205_hirutest/lambda.js",
+        "cursor": {
+          "lineNumber": 2,
+          "column": 5
+        },
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      },
+      "b5e0bb1b-be2f-4857-8e15-23524bb65e02": {
+        "id": "b5e0bb1b-be2f-4857-8e15-23524bb65e02",
+        "parent": "b830e455-9fac-4f00-86d6-732daf77aa76",
+        "name": "sub1",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "bae77908-8d3e-4136-803f-d5766c869777"
+        ],
+        "isRemovable": true,
+        "filePath": "0205_hirutest/sub1"
+      },
+      "bae77908-8d3e-4136-803f-d5766c869777": {
+        "id": "bae77908-8d3e-4136-803f-d5766c869777",
+        "parent": "b5e0bb1b-be2f-4857-8e15-23524bb65e02",
+        "name": "sub2",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "c4046397-1606-4e9d-a346-f2d92bc2f15b"
+        ],
+        "isRemovable": true,
+        "filePath": "0205_hirutest/sub1/sub2"
+      },
+      "c4046397-1606-4e9d-a346-f2d92bc2f15b": {
+        "id": "c4046397-1606-4e9d-a346-f2d92bc2f15b",
+        "parent": "bae77908-8d3e-4136-803f-d5766c869777",
+        "name": "sub3",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "c0071d4e-63e0-4f86-a44c-4410521f3a16"
+        ],
+        "isRemovable": true,
+        "filePath": "0205_hirutest/sub1/sub2/sub3"
+      },
+      "c0071d4e-63e0-4f86-a44c-4410521f3a16": {
+        "id": "c0071d4e-63e0-4f86-a44c-4410521f3a16",
+        "parent": "c4046397-1606-4e9d-a346-f2d92bc2f15b",
+        "name": "nestlamb.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "0205_hirutest/sub1/sub2/sub3/nestlamb.js",
+        "cursor": {
+          "lineNumber": 1,
+          "column": 12
+        },
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": [
+          {
+            "resourceName": "apigusEast1sachithraAPIname1111any",
+            "config": {}
+          }
+        ]
+      },
+      "d96722a2-2ac2-481c-b8cc-561d8797e388": {
+        "id": "d96722a2-2ac2-481c-b8cc-561d8797e388",
+        "parent": "b830e455-9fac-4f00-86d6-732daf77aa76",
+        "name": "jsfile.js",
+        "type": "JS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "0205_hirutest/jsfile.js",
+        "cursor": {
+          "lineNumber": 33,
+          "column": 30
+        }
+      }
+    },
+    "rootNode": "b830e455-9fac-4f00-86d6-732daf77aa76",
+    "openFiles": [
+      "13f0fa6d-c474-4d9d-b237-4749a198886b",
+      "c0071d4e-63e0-4f86-a44c-4410521f3a16",
+      "d96722a2-2ac2-481c-b8cc-561d8797e388"
+    ],
+    "currentFileId": "c0071d4e-63e0-4f86-a44c-4410521f3a16",
+    "resources": {
+      "s3as2TestLahiru": {
+        "name": "s3as2TestLahiru",
+        "type": "S3",
+        "config": {
+          "mode": 1,
+          "bucket": {
+            "region": "us-east-1",
+            "name": "as2-test-lahiru"
+          }
+        }
+      },
+      "apigusEast1sachithraAPIname1111any": {
+        "name": "apigusEast1sachithraAPIname1111any",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "us-east-1",
+          "apiMode": 1,
+          "apiName": "sachithraAPIname",
+          "apiId": "052p9kjn18",
+          "endpointType": "REGIONAL",
+          "rootResourceId": "zrjp6rdv3b",
+          "existingResources": {
+            "/": "zrjp6rdv3b"
+          },
+          "resourceMode": 0,
+          "resourceName": "1111",
+          "resourcePath": "/1111",
+          "restMethod": "ANY",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 1,
+          "stageName": "Test",
+          "stageDeploymentId": "7uqdzq",
+          "mode": 1
+        }
+      }
+    },
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {
+        "aws-sdk": {
+          "name": "aws-sdk",
+          "language": "javascript",
+          "version": "2.176.0",
+          "dev": true,
+          "notRemovable": false
+        }
+      }
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "0205_hirutest",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "language": "javascript",
+    "lastSave": 1580880279068
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "0205_hirutest",
+      "url": "https://github.com/HirudineeADRT/0205_hirutest"
+    }
+  }
+}
